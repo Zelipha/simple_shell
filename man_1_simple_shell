@@ -1,0 +1,41 @@
+.\" Manpage for simple_shell.
+
+
+.TH man 1 "10 Nov 2021" "1.0" "simple_shell man page"
+
+.SH NAME
+simple_shell \- a simple UNIX command interpreter.
+
+.SH SYNOPSIS
+simple_shell [scripts] [command_string | file]
+
+.SH DESCRIPTION
+Simple_shell is a command-line interpreter for Unix-like operating systems.It provides an interface for a computer user to the Unix/GNU Linux system so that the user can run different commands or utilities/tools with some input data. 
+
+
+.SH OPTIONS
+The simple_shell does not take any options. However, you can supply commands with options. 
+Example
+ls \- is a command that lists the directory  contents.
+ls [OPTION]... [FILE]...
+
+	-a, --all
+              do not ignore entries starting with .
+
+	-A, --almost-all
+              do not list implied . and ..
+
+	--author
+              with -l, print the author of each file
+
+.SH SEE ALSO
+man bash
+
+.SH BUGS
+I should think so.
+
+.SH COPYRIGHT
+Copyright (C)  2021  Kehinde & Zelipha. License GPLv3+: version 3 or later <https://github.com/Zelipha/simple_shell.git>.  This is a free UNIX command interpreter: you're free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+.SH AUTHORS
+Zelipha Wambui and Kehinde Adedokun
